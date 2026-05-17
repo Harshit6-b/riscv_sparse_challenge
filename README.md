@@ -84,7 +84,7 @@ No heap allocation is performed. All buffers (`values`, `col_indices`, `row_ptrs
 ## Build & Run
 
 ```bash
-gcc -lm -o run challenge.c
+gcc -o run challenge.c -lm
 ./run
 ```
 

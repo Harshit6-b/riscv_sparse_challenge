@@ -92,35 +92,7 @@ gcc -lm -o run challenge.c
 
 The harness runs 100 randomised iterations, each with a different matrix size (5–45 rows/cols), sparsity density (5–40%), and input vector. Results are checked against a naive reference multiply with mixed absolute/relative tolerance of `1e-7`.
 
-```
-Iter 75 [ 17x 36, density=0.26, nnz= 145]: PASS (Max error: 0.00e+00)
-Iter 76 [ 41x 20, density=0.07, nnz=  54]: PASS (Max error: 0.00e+00)
-Iter 77 [  5x 25, density=0.35, nnz=  33]: PASS (Max error: 0.00e+00)
-Iter 78 [ 40x 15, density=0.22, nnz= 141]: PASS (Max error: 0.00e+00)
-Iter 79 [ 11x 31, density=0.31, nnz= 105]: PASS (Max error: 0.00e+00)
-Iter 80 [ 41x 20, density=0.09, nnz=  91]: PASS (Max error: 0.00e+00)
-Iter 81 [ 42x 22, density=0.18, nnz= 201]: PASS (Max error: 0.00e+00)
-Iter 82 [ 27x 27, density=0.15, nnz= 127]: PASS (Max error: 0.00e+00)
-Iter 83 [ 33x 30, density=0.23, nnz= 222]: PASS (Max error: 0.00e+00)
-Iter 84 [ 27x 38, density=0.34, nnz= 350]: PASS (Max error: 0.00e+00)
-Iter 85 [ 20x 24, density=0.10, nnz=  53]: PASS (Max error: 0.00e+00)
-Iter 86 [ 26x  8, density=0.35, nnz=  66]: PASS (Max error: 0.00e+00)
-Iter 87 [ 10x 13, density=0.18, nnz=  22]: PASS (Max error: 0.00e+00)
-Iter 88 [  9x 29, density=0.11, nnz=  29]: PASS (Max error: 0.00e+00)
-Iter 89 [ 43x 36, density=0.23, nnz= 364]: PASS (Max error: 0.00e+00)
-Iter 90 [ 42x 27, density=0.31, nnz= 379]: PASS (Max error: 0.00e+00)
-Iter 91 [ 35x 30, density=0.17, nnz= 158]: PASS (Max error: 0.00e+00)
-Iter 92 [  8x 26, density=0.37, nnz=  77]: PASS (Max error: 0.00e+00)
-Iter 93 [  5x 38, density=0.06, nnz=  19]: PASS (Max error: 0.00e+00)
-Iter 94 [ 34x 44, density=0.24, nnz= 359]: PASS (Max error: 0.00e+00)
-Iter 95 [ 28x 18, density=0.19, nnz=  95]: PASS (Max error: 0.00e+00)
-Iter 96 [ 10x  5, density=0.30, nnz=  16]: PASS (Max error: 0.00e+00)
-Iter 97 [ 17x 19, density=0.39, nnz= 118]: PASS (Max error: 0.00e+00)
-Iter 98 [ 11x 13, density=0.33, nnz=  43]: PASS (Max error: 0.00e+00)
-Iter 99 [ 16x 21, density=0.06, nnz=  28]: PASS (Max error: 0.00e+00)
-
-All tests passed! (100/100 iterations passed)
-```
+![img](assests/output.png)
 
 ## Test Harness
 
